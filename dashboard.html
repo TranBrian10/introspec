@@ -18,11 +18,13 @@
 
   <body>
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">
+		<img src="./assets/logo_white.svg" style="height:20px">
+	  </a>
       <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="#">Sign out</a>
+          <a class="nav-link" href="index.html">Sign out</a>
         </li>
       </ul>
     </nav>
@@ -40,38 +42,32 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file"></span>
-                  Orders
+                  <span data-feather="bar-chart-2"></span>
+                  Privacy
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="shopping-cart"></span>
-                  Products
+                <a class="nav-link" href="news.html">
+                  <span data-feather="alert-circle"></span>
+                  News & Alerts
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="users"></span>
-                  Customers
+                  Ad Profile
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="bar-chart-2"></span>
-                  Reports
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="gdpr.html">
                   <span data-feather="layers"></span>
-                  Integrations
+                  GDPR Requests
                 </a>
               </li>
             </ul>
 
             <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-              <span>Saved reports</span>
+              <span>Accounts</span>
               <a class="d-flex align-items-center text-muted" href="#">
                 <span data-feather="plus-circle"></span>
               </a>
@@ -79,26 +75,26 @@
             <ul class="nav flex-column mb-2">
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Current month
+                  <span data-feather="facebook"></span>
+                  Facebook
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="file-text"></span>
-                  Last quarter
+                  Google
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Social engagement
+                  <span data-feather="twitter"></span>
+                  Twitter
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Year-end sale
+                  <span data-feather="linkedin"></span>
+                  LinkedIn
                 </a>
               </li>
             </ul>
@@ -107,10 +103,9 @@
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h1 class="h2">Dashboard</h1>
+            <h1 class="h2">Privacy Score</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group mr-2">
-                <button class="btn btn-sm btn-outline-secondary">Share</button>
                 <button class="btn btn-sm btn-outline-secondary">Export</button>
               </div>
               <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
@@ -122,134 +117,8 @@
 
           <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
 
-          <h2>Section title</h2>
-          <div class="table-responsive">
-            <table class="table table-striped table-sm">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
-                </tr>
-                <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>Integer</td>
-                  <td>nec</td>
-                  <td>odio</td>
-                  <td>Praesent</td>
-                </tr>
-                <tr>
-                  <td>1,003</td>
-                  <td>libero</td>
-                  <td>Sed</td>
-                  <td>cursus</td>
-                  <td>ante</td>
-                </tr>
-                <tr>
-                  <td>1,004</td>
-                  <td>dapibus</td>
-                  <td>diam</td>
-                  <td>Sed</td>
-                  <td>nisi</td>
-                </tr>
-                <tr>
-                  <td>1,005</td>
-                  <td>Nulla</td>
-                  <td>quis</td>
-                  <td>sem</td>
-                  <td>at</td>
-                </tr>
-                <tr>
-                  <td>1,006</td>
-                  <td>nibh</td>
-                  <td>elementum</td>
-                  <td>imperdiet</td>
-                  <td>Duis</td>
-                </tr>
-                <tr>
-                  <td>1,007</td>
-                  <td>sagittis</td>
-                  <td>ipsum</td>
-                  <td>Praesent</td>
-                  <td>mauris</td>
-                </tr>
-                <tr>
-                  <td>1,008</td>
-                  <td>Fusce</td>
-                  <td>nec</td>
-                  <td>tellus</td>
-                  <td>sed</td>
-                </tr>
-                <tr>
-                  <td>1,009</td>
-                  <td>augue</td>
-                  <td>semper</td>
-                  <td>porta</td>
-                  <td>Mauris</td>
-                </tr>
-                <tr>
-                  <td>1,010</td>
-                  <td>massa</td>
-                  <td>Vestibulum</td>
-                  <td>lacinia</td>
-                  <td>arcu</td>
-                </tr>
-                <tr>
-                  <td>1,011</td>
-                  <td>eget</td>
-                  <td>nulla</td>
-                  <td>Class</td>
-                  <td>aptent</td>
-                </tr>
-                <tr>
-                  <td>1,012</td>
-                  <td>taciti</td>
-                  <td>sociosqu</td>
-                  <td>ad</td>
-                  <td>litora</td>
-                </tr>
-                <tr>
-                  <td>1,013</td>
-                  <td>torquent</td>
-                  <td>per</td>
-                  <td>conubia</td>
-                  <td>nostra</td>
-                </tr>
-                <tr>
-                  <td>1,014</td>
-                  <td>per</td>
-                  <td>inceptos</td>
-                  <td>himenaeos</td>
-                  <td>Curabitur</td>
-                </tr>
-                <tr>
-                  <td>1,015</td>
-                  <td>sodales</td>
-                  <td>ligula</td>
-                  <td>in</td>
-                  <td>libero</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+		  <h2>Impressions</h2>
+		  <canvas class="my-4 w-100" id="my_canvas" width="900" height="380"></canvas>
         </main>
       </div>
     </div>
@@ -276,12 +145,22 @@
         data: {
           labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
           datasets: [{
-            data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+            data: [15, 21, 17, 24, 22, 24.1, 12],
             lineTension: 0,
             backgroundColor: 'transparent',
             borderColor: '#007bff',
             borderWidth: 4,
-            pointBackgroundColor: '#007bff'
+			pointBackgroundColor: '#007bff',
+			label: 'Your score'
+		  },
+		  {
+            data: [14, 16, 19, 22.5, 24.1, 22, 16],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#badbff',
+            borderWidth: 4,
+			pointBackgroundColor: '#badbff',
+			label: 'Global average'
           }]
         },
         options: {
@@ -293,10 +172,102 @@
             }]
           },
           legend: {
-            display: false,
+			display: true,
+			position: 'bottom'
           }
         }
       });
-    </script>
+	</script>
+
+	<script src="wordcloud2.js"></script>
+	<script>
+		list = [
+				["3D film", 15],
+				["64DD", 5],
+				["Adventure film", 25],
+				["Alan Rickman", 10],
+				["Alessia Cara", 38],
+				["AMD Gaming", 30],
+				["Borderlands (series)", 40],
+				["Borderlands (video game)", 15],
+				["Campus", 6],
+				["Career", 4],
+				["Citadel", 10],
+				["Coming-of-age story", 10],
+				["Community (TV series)", 5],
+				["Computers", 65],
+				["Daniel Radcliffe", 12],
+				["Data", 16],
+				["Data science", 14],
+				["David Thewlis", 2],
+				["Education", 14],
+				["Engineering", 20],
+				["EVGA Corporation", 10],
+				["Facebook Messenger", 33],
+				["Fantasy film", 35],
+				["Fiona Shaw", 10],
+				["First-person shooter games", 25],
+				["GameCube", 15],
+				["Gary Oldman", 10],
+				["GeForce", 10],
+				["Hair (film)", 10],
+				["Handheld game console", 10],
+				["Harry Potter", 20],
+				["Harry Potter (film series)", 10],
+				["Harry Potter and the Goblet of Fire (film)", 10],
+				["Harry Potter and the Half-Blood Prince (film)", 10],
+				["Harry Potter and the Order of the Phoenix (film)", 10],
+				["Harry Potter and the Prisoner of Azkaban (film)", 10],
+				["Headphones", 38],
+				["Helena Bonham Carter", 10],
+				["Home video game console", 10],
+				["Hubble Space Telescope", 12],
+				["Instagram", 26],
+				["Instant messaging", 20],
+				["J. K. Rowling", 16],
+				["Jason Isaacs", 10],
+				["John Cleese", 10],
+				["John Williams", 10],
+				["Julie Walters", 10],
+				["Kitchener-Waterloo Oktoberfest", 10],
+				["Maggie Smith", 10],
+				["Mathematics", 10],
+				["Michael Gambon", 10],
+				["Mike Newell (director)", 10],
+				["Mind", 10],
+				["Mini", 10],
+				["Music", 42],
+				["Nintendo", 22],
+				["Nintendo 64", 10],
+				["Nintendo DS Lite", 10],
+				["Nintendo Entertainment System", 10],
+				["Nintendo Integrated Research & Development", 10],
+				["Nintendo VS. System", 10],
+				["Open world", 16],
+				["Overwatch (video game)", 13],
+				["PC Gamer", 25],
+				["Quiz", 10],
+				["Richard Harris", 10],
+				["Robbie Coltrane", 10],
+				["Role-playing games", 10],
+				["Rupert Grint", 10],
+				["Science", 10],
+				["Spotify", 18],
+				["Student", 10],
+				["Super Nintendo Entertainment System", 10],
+				["Survival kit", 10],
+				["Technology", 20],
+				["Ticket (admission)", 10],
+				["Tuna", 5],
+				["University of Waterloo", 30],
+				["Victory", 10],
+				["Video card", 10],
+				["Video games", 20],
+				["Virtual Console", 10],
+				["Warwick Davis", 10],
+				["Waterloo, Ontario", 16]
+			];
+		WordCloud(document.getElementById('my_canvas'), { list: list } );
+	</script>
   </body>
 </html>
